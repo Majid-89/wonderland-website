@@ -1,0 +1,352 @@
+@media only screen and (max-width: 980px) {
+    .top-nav {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 880px) {
+
+    /*--------------------Booking-section-----------------*/
+    .text-big {
+        font-size: 65px;
+    }
+
+    /* .booking-sec {
+        height: 300px;
+    }
+
+    .booking-sec .icon-box {
+        width: 25%;
+        height: 39px;
+
+    }
+
+    .booking-sec .icon-box i {
+        font-size: 20px;
+        margin-top: 3px;
+    }
+
+    .booking-sec .icon-box p {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+
+    .booking-sec .icon-box .icon {
+        height: 30px;
+    }
+
+    .booking-sec form {
+        position: relative;
+        margin-top: 8px;
+    }
+
+    .booking-sec form button {
+        padding: 5px 20px;
+        bottom: -50px;
+        position: absolute;
+    }
+
+    .booking-sec .form-group input {
+        padding: 5px;
+        width: 120px;
+    }
+
+    .booking-sec .form-group select {
+        padding: 7px;
+        width: 120px;
+    }
+
+    .booking-sec .form-group #passengers {
+        padding: 5px 45px;
+
+    }
+
+    .booking-sec .form-group p {
+        font-size: 13px;
+        margin-top: 20px;
+    } */
+
+
+    .caption {
+        margin-top: 20px;
+    }
+
+    .caption .title {
+        font-size: 50px;
+
+    }
+
+    .caption p {
+        margin-top: 30px;
+        font-size: 12px;
+    }
+
+    .bottom-row1 .column-1 h2 {
+        margin-top: 10px;
+        font-weight: 400;
+    }
+
+    .bottom-row1 .column-1 h1 {
+        margin-top: -10px;
+    }
+
+    .bottom-row1 .column-1 p {
+        margin-top: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 760px) {
+    .bottom-row1 .column-1 h2 {
+        text-align: center;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .bottom-row1 .column-1 h1 {
+        display: flex;
+        justify-content: center;
+        margin-top: -32px;
+        font-size: 27px;
+
+    }
+
+    .bottom-row1 .column-1 p {
+        margin-top: -40px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 710px) {
+    .text-big {
+        font-size: 55px;
+    }
+
+    /* .booking-sec {
+        margin-top: 30px;
+        height: 320px;
+    } */
+
+    .main-bg {
+        height: 420px;
+    }
+
+    /*-------------------------
+        video-section
+    ----------------------*/
+    .video-content {
+        margin-top: 100px;
+        height: 350px;
+
+    }
+
+    .video-content .icon-box {
+        width: 10%;
+        margin: 50px auto 0 auto;
+    }
+
+    .video-content .icon-box img {
+        height: 45px;
+        width: 45px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .contact-info h2 {
+        margin-top: 50px;
+    }
+
+    .bottom-sec .section-2 {
+        margin-top: 50px;
+    }
+}
+
+
+
+@media only screen and (max-width: 550px) {
+
+    .text-big {
+        font-size: 50px;
+
+    }
+
+    .caption .title {
+        font-size: 40px;
+    }
+
+    .main-bg {
+        height: 300px;
+    }
+
+    .listing-main .main-content .row-6 div {
+        width: 100%;
+    }
+
+    .checkout .upper-part {
+        flex-direction: column;
+    }
+
+}
+
+
+@media only screen and (max-width: 470px) {
+
+
+    /* .booking-sec .icon-box i {
+        font-size: 19px;
+
+    }
+
+    .booking-sec .icon-box p {
+        font-size: 10px;
+        padding: 20px 0px 0px 14px;
+
+    } */
+
+    .caption .title {
+        font-size: 30px;
+
+    }
+
+
+    .about-review {
+        height: 350px;
+    }
+
+    .review-sec {
+        margin-top: 50px;
+        height: 300px;
+        position: relative;
+    }
+
+    .review-box {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .review-box h1 {
+        font-size: 19px;
+        padding-top: 20px;
+    }
+
+    .review-box h2 {
+        font-size: 18px;
+        margin-top: 0px;
+        margin-left: 35px;
+
+    }
+
+    .review-box p {
+        padding-top: 0px;
+        width: 190px;
+        line-height: 16px;
+        font-size: 15px;
+    }
+
+    .review-box .icons {
+        margin-left: 30px;
+    }
+
+    .review-box .icons i {
+        font-size: 15px;
+    }
+
+    .review-sec .arrow-icon {
+        margin-top: -20px;
+    }
+
+    .review-sec .arrow-icon i {
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .listing-main {
+        width: 100%;
+        margin: 50px auto 0 10px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 422px) {
+    .text-big {
+        font-size: 40px;
+    }
+
+    .hero-about {
+        height: 250px;
+    }
+
+    .hero-service {
+        height: 250px;
+    }
+
+    .hero-contact {
+        height: 250px;
+    }
+
+    .hero-error {
+        height: 250px;
+    }
+
+    .hero-listing {
+        height: 250px;
+    }
+
+    .hero-checkout {
+        height: 250px;
+    }
+
+    /* .booking-sec {
+        height: 380px;
+    }
+
+    .booking-sec .icon-box .icon {
+        width: 25px;
+        height: 25px;
+
+    }
+
+    .booking-sec .icon-box i {
+        font-size: 15px;
+
+    } */
+
+    .listing-main h1 {
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (max-width: 370px) {
+    .text-big {
+        font-size: 35px;
+    }
+
+
+    /* .booking-sec .icon-box {
+        height: 30px;
+        overflow: hidden;
+    }
+
+    .booking-sec .icon-box .icon {
+        width: 23px;
+        height: 23px;
+
+    }
+
+    .booking-sec .icon-box i {
+        font-size: 15px;
+
+    }
+
+    .booking-sec .icon-box p {
+        font-size: 10px;
+        padding: 20px 0px 0px 10px;
+
+    } */
+
+}

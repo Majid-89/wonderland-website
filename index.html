@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderland - website (projrct)</title>
+
+
+
+    <!-- Bootstrap 5 CDN -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script> -->
+
+
+    <!-- ---------CSS-files--------- -->
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+    <!-----------Google-fonts----------->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+    <!-----------Fontawsome----------->
+    <script src="https://kit.fontawesome.com/e90aa2b1b4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="nav-section">
+        <div class="container">
+            <div class="top-nav">
+                <div class="icon-box d-inline d-flex justify-content-start align-content-center ">
+                    <div class="icon ">
+                        <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <div class="icon ">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+
+                    <div class="icon ">
+
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+                </div>
+                <div class="icon-box1 d-inline d-flex justify-content-end ">
+                    <button class="nav-button">+1(555) 885-1535</button>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- <nav class="navbar navbar-expand-lg position-sticky">
+            <div class="container">
+
+                <img src="IMAGES/Logos/nav-logo.jpg" class="figure-img" alt="logo">
+                <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end me-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex justify-content-end">
+                        <li class="nav-item ms-5">
+                            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link" href="service.html">Service</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav> -->
+
+
+
+        <nav class="navbar navbar-expand-lg position-sticky">
+            <div class="container">
+
+                <img src="IMAGES/Logos/nav-logo.jpg" class="figure-img" alt="logo">
+                <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d justify-content-end me-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex justify-content-end">
+                        <li class="nav-item ms-5">
+                            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link" href="service.html">Service</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-------------------------------------
+        Main-section
+    ---------------------------------------->
+    <section class="main">
+        <div class="container">
+            <div class="main-bg">
+                <h1 class="text-big pt-5">Welcome to <br> <span class="text-blue"> WonderlandAdventures</span></h1>
+                <div class="booking-sec">
+                    <div class="tab-titles">
+                        <div class="icon-box tab-links active-link" onclick="opentab('Flights')" id="box-1">
+                            <div class="icon">
+                                <i class="fa-solid fa-plane"></i>
+                            </div>
+                            <p class=" ">Flights</p>
+                        </div>
+                        <div class="icon-box tab-links " onclick="opentab('Hotels')" id="box-2">
+                            <div class="icon">
+                                <i class="fa-solid fa-hotel"></i>
+                            </div>
+
+                            <p class="">Hotels</p>
+                        </div>
+                        <div class="icon-box tab-links" onclick="opentab('Cars')" id="box-3">
+                            <div class="icon">
+                                <i class="fa-solid fa-car"></i>
+                            </div>
+                            <p class="">Cars</p>
+                        </div>
+                        <div class="icon-box tab-links" onclick="opentab('Curises')" id="box-4">
+                            <div class="icon">
+                                <i class="fa-solid fa-ship"></i>
+                            </div>
+                            <p class="">Curises</p>
+                        </div>
+                    </div>
+
+                    <div class="form-section tab-contents active-tab" id="Flights">
+                        <form class="d-flex align-items-center justify-content-around flex-wrap mt-5">
+                            <div class="form-group">
+                                <p>Flying from:</p>
+                                <select class="bg-danger" id="from" name="from">
+                                    <option value="">City or Airport</option>
+                                    <option value="New York">New York</option>
+                                    <option value="Los Angeles">Los Angeles</option>
+                                    <option value="Chicago">Chicago</option>
+                                    <option value="Houston">Houston</option>
+                                    <option value="Miami">Miami</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <p>To</p>
+                                <select id="to" name="to">
+                                    <option value="">City or Airport</option>
+                                    <option value="London">London</option>
+                                    <option value="Paris">Paris</option>
+                                    <option value="Tokyo">Tokyo</option>
+                                    <option value="Sydney">Sydney</option>
+                                    <option value="Dubai">Dubai</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <p for="date">Departing:</p>
+                                <input type="date" id="date" name="date">
+                            </div>
+                            <div class="form-group">
+                                <p for="date">Returing:</p>
+                                <input type="date" id="date" name="date">
+                            </div>
+                            <div class="form-group">
+                                <p for="passengers">Adult:</p>
+                                <select id="passengers" name="passengers">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <p for="passengers">Child:</p>
+                                <select id="passengers" name="passengers">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                    <div class="form-section tab-contents" id="Hotels">
+                        <form class="d-flex align-items-center justify-content-around flex-wrap mt-5">
+                            <div class="form-group">
+                                <p>Flying from:</p>
+                                <select id="from" name="from">
+                                    <option value="">City or Airport</option>
+                                    <option value="New York">New York</option>
+                                    <option value="Los Angeles">Los Angeles</option>
+                                    <option value="Chicago">Chicago</option>
+                                    <option value="Houston">Houston</option>
+                                    <option value="Miami">Miami</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <p>To</p>
+                                <select class="bg-danger" id="to" name="to">
+                                    <option value="">City or Airport</option>
+                                    <option value="London">London</option>
+                                    <option value="Paris">Paris</option>
+                                    <option value="Tokyo">Tokyo</option>
+                                    <option value="Sydney">Sydney</option>
+                                    <option value="Dubai">Dubai</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <p for="date">Departing:</p>
+                                <input type="date" id="date" name="date">
+                            </div>
+                            <div class="form-group">
+                                <p for="date">Returing:</p>
+                                <input type="date" id="date" name="date">
+                            </div>
+                            <div class="form-group">
+                                <p for="passengers">Adult:</p>
+                                <select id="passengers" name="passengers">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <p for="passengers">Child:</p>
+                                <select id="passengers" name="passengers">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                    <div class="form-section tab-contents" id="Cars">
+                        <form class="d-flex align-items-center justify-content-around flex-wrap mt-5">
+                            <div class="form-group">
+                                <p>Flying from:</p>
+                                <select id="from" name="from">
+                                    <option value="">City or Airport</option>
+                                    <option value="New York">New York</option>
+                                    <option value="Los Angeles">Los Angeles</option>
+                                    <option value="Chicago">Chicago</option>
+                                    <option value="Houston">Houston</option>
+                                    <option value="Miami">Miami</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <p>To</p>
+                                <select id="to" name="to">
+                                    <option value="">City or Airport</option>
+                                    <option value="London">London</option>
+                                    <option value="Paris">Paris</option>
+                                    <option value="Tokyo">Tokyo</option>
+                                    <option value="Sydney">Sydney</option>
+                                    <option value="Dubai">Dubai</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <p for="date">Departing:</p>
+                                <input type="date" id="date" name="date">
+                            </div>
+                            <div class="form-group">
+                                <p for="date">Returing:</p>
+                                <input type="date" id="date" name="date">
+                            </div>
+                            <div class="form-group">
+                                <p for="passengers">Adult:</p>
+                                <select class="bg-danger" id="passengers" name="passengers">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <p for="passengers">Child:</p>
+                                <select id="passengers" name="passengers">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                    <div class="form-section tab-contents" id="Curises">
+                        <form class="d-flex align-items-center justify-content-around flex-wrap mt-5">
+                            <div class="form-group">
+                                <p>Flying from:</p>
+                                <select id="from" name="from">
+                                    <option value="">City or Airport</option>
+                                    <option value="New York">New York</option>
+                                    <option value="Los Angeles">Los Angeles</option>
+                                    <option value="Chicago">Chicago</option>
+                                    <option value="Houston">Houston</option>
+                                    <option value="Miami">Miami</option>
+                                </select>
+                            </div>
+                            <div class="form-group ">
+                                <p>To</p>
+                                <select class="bg-secondary" id="to" name="to">
+                                    <option value="">City or Airport</option>
+                                    <option value="London">London</option>
+                                    <option value="Paris">Paris</option>
+                                    <option value="Tokyo">Tokyo</option>
+                                    <option value="Sydney">Sydney</option>
+                                    <option value="Dubai">Dubai</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <p for="date">Departing:</p>
+                                <input type="date" id="date" name="date">
+                            </div>
+                            <div class="form-group">
+                                <p for="date">Returing:</p>
+                                <input type="date" id="date" name="date">
+                            </div>
+                            <div class="form-group">
+                                <p for="passengers">Adult:</p>
+                                <select id="passengers" name="passengers">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <p for="passengers">Child:</p>
+                                <select id="passengers" name="passengers">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-------------------------------------
+     About-section
+    ---------------------------------------->
+
+
+    <section class="About">
+        <div class="breadcrumbs  " data-aos="fade-in ">
+            <div class="container">
+                <div class="caption">
+                    <h1 class="title">ABOUT WONDERLAND <br> <span class="text-blue">ADVENTURES</span></h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" data-aos="fade-up">
+
+            <div class="width-90">
+                <div class="row" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-lg-4 col-md-6  d-flex align-items-stretch">
+                        <div class="about-sec">
+                            <div class="card">
+                                <img src="IMAGES/about-images/img-1.jpg" class="img-fluid" alt="trainer-pic">
+                            </div>
+                            <div class="info-sec">
+                                <a class="text-decoration-none" href="#">
+                                    <h1>Group Coordinators</h1>
+                                </a>
+                                <p>"Neque porro quisquam est qui dolorem ipsum quia qui dolorem ipsum quia dolor sit
+                                    amet,
+                                    consectetur, adipisci velit..."
+                                </p>
+                                <button id="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6  d-flex align-items-stretch ">
+                        <div class="about-sec">
+                            <div class="card">
+                                <img src="IMAGES/about-images/img-2.jpg" class="img-fluid" alt="trainer-pic">
+                            </div>
+                            <div class="info-sec">
+                                <a class="text-decoration-none" href="#">
+                                    <h1>Culture Guides</h1>
+                                </a>
+                                <p>"Neque porro quisquam est qui dolorem ipsum quia qui dolorem ipsum quia dolor sit
+                                    amet,
+                                    consectetur, adipisci velit..."
+                                </p>
+                                <button id="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6  d-flex align-items-stretch ">
+                        <div class="about-sec">
+                            <div class="card">
+                                <img src="IMAGES/about-images/img-3.jpg" class="img-fluid" alt="trainer-pic">
+                            </div>
+                            <div class="info-sec">
+                                <a class="text-decoration-none" href="#">
+                                    <h1>Adventure Guides</h1>
+                                </a>
+                                <p>"Neque porro quisquam est qui dolorem ipsum quia qui dolorem ipsum quia dolor sit
+                                    amet,
+                                    consectetur, adipisci velit..."
+                                </p>
+                                <button id="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-------------------------------------
+     Service-section
+    ---------------------------------------->
+
+    <section class="Service">
+        <div class="breadcrumbs  " data-aos="fade-in ">
+            <div class="container">
+                <div class="caption">
+                    <h1 class="title">OUR<span class="text-blue"> SERVICES</span></h1>
+                    <P>ipsum quia dolor sit amet, consectetur, adipisci <br>
+                        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because
+                        it
+                        is
+                        <br> pain..."
+                    </P>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" data-aos="fade-up">
+
+            <div class="width-90">
+                <div class="row " data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-lg-4 col-md-6  d-flex align-items-stretch ">
+                        <div class="service-row1">
+                            <div class="card">
+                                <img src="IMAGES/service-images/img-1.jpg" class="img-fluid " alt="">
+                            </div>
+                            <div class="info-sec">
+                                <a class="text-decoration-none" href="#">
+                                    <h1>Travel Specialists</h1>
+                                </a>
+                                <p>Our group tour coordinators are skilled in organizing and managing custom group tours
+                                    for
+                                    families, friends.
+
+                                </p>
+                                <button id="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6  d-flex align-items-stretch ">
+                        <div class="service-row1">
+                            <div class="card">
+                                <img src="IMAGES/service-images/img-2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="info-sec">
+                                <a class="text-decoration-none" href="#">
+                                    <h1>Group Coordinators</h1>
+                                </a>
+                                <p>Our group tour coordinators are skilled in organizing and managing custom group tours
+                                    for
+                                    families, friends.
+
+                                </p>
+                                <button id="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6  d-flex align-items-stretch ">
+                        <div class="service-row1">
+                            <div class="card">
+                                <img src="IMAGES/service-images/img-3.jpg" class="img-fluid" alt="card-img">
+                            </div>
+                            <div class="info-sec">
+                                <a class="text-decoration-none" href="#">
+                                    <h1>Travel Consultants</h1>
+                                </a>
+                                <p>Our group tour coordinators are skilled in organizing and managing custom group tours
+                                    for
+                                    families, friends.
+
+                                </p>
+                                <button id="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-------------------------------------
+     Service-section-2
+    ---------------------------------------->
+
+
+
+    <section class="Service-2">
+        <div class="breadcrumbs  " data-aos="fade-in ">
+            <div class="container">
+                <div class="caption">
+                    <h1 class="title">MOST POPULAR <br><span class="text-blue">ADVENTURES</span></h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" data-aos="fade-up">
+
+            <div class="width-90">
+                <div class="row " data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-lg-4 col-md-6  d-flex align-items-stretch ">
+                        <div class="service-row2">
+                            <div class="card">
+                                <div class="card">
+                                    <img src="IMAGES/about-images/img-1.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="info-sec">
+                                <a href="#" class="text-decoration-none">
+                                    <h1>Group Coordinators</h1>
+                                </a>
+                                <div class="d-flex justify-content-end review">
+                                    <i class="fa-solid fa-star"></i>
+                                    <h6>5.0(200)</h6>
+
+                                </div>
+                                <div class="mt-3 span">
+                                    <span><span class="dollar-blue">$</span> 140/Per Person </span>
+                                </div>
+                                <div class="icon-box">
+                                    <img src="IMAGES/service-images/service-logos/service-logo.jpg" alt="">
+                                    <p>5 days &nbsp; &nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;G99P</p>
+                                </div>
+                                <p>"Neque porro quisquam est qui dolorem quia dolor sit
+                                    amet, consectetur, adipisci velit..."
+                                </p>
+                                <button id="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6  d-flex align-items-stretch ">
+                        <div class="service-row2">
+                            <div class="card">
+                                <div class="card">
+                                    <img src="IMAGES/about-images/img-2.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="info-sec">
+                                <a href="#" class="text-decoration-none">
+                                    <h1>Adventure Guides</h1>
+                                </a>
+                                <div class="d-flex justify-content-end review">
+                                    <i class="fa-solid fa-star"></i>
+                                    <h6>4.0(167)</h6>
+                                </div>
+                                <div class="mt-3 span">
+                                    <span><span class="dollar-blue">$</span> 197/Per Person </span>
+                                </div>
+                                <div class="icon-box">
+                                    <img src="IMAGES/service-images/service-logos/service-logo.jpg" alt="">
+                                    <p>5 days &nbsp; &nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;G99P</p>
+                                </div>
+                                <p>"Neque porro quisquam est qui dolorem quia ipsum quia dolor sit
+                                    consectetur, adipisci velit..."
+                                </p>
+                                <button id="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6  d-flex align-items-stretch ">
+                        <div class="service-row2">
+                            <div class="card">
+                                <img src="IMAGES/about-images/img-3.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="info-sec">
+                                <a class="text-decoration-none" href="#">
+                                    <h1>Cultural Tour Guides</h1>
+                                </a>
+                                <div class="d-flex justify-content-end review">
+                                    <i class="fa-solid fa-star"></i>
+                                    <h6>4.7(330)</h6>
+                                </div>
+                                <div class="mt-3 span">
+                                    <span><span class="dollar-blue">$</span>170/Per Person </span>
+                                </div>
+                                <div class="icon-box">
+                                    <img src="IMAGES/service-images/service-logos/service-logo.jpg" alt="">
+                                    <p>5 days &nbsp; &nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;G99P </p>
+                                </div>
+                                <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                                    amet,
+                                    consectetur, adipisci velit..."
+                                </p>
+                                <button id="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-------------------------------------
+     Service-section-3
+    ---------------------------------------->
+
+
+    <section class="Service">
+        <div class="breadcrumbs  " data-aos="fade-in ">
+            <div class="container">
+                <div class="caption">
+                    <h1 class="title"> WONDERLAND <br>
+                        <span class="text-blue">SEA TRAVELS</span>
+                    </h1>
+                    <P>ipsum quia dolor sit amet, consectetur, adipisci <br>
+                        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because
+                        it
+                        is
+                        <br> pain..."
+                    </P>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" data-aos="fade-up">
+
+            <div class="width-90">
+                <div class="row " data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-lg-4 col-md-6  d-flex align-items-stretch ">
+                        <div class="service-row1">
+                            <div class="card">
+                                <img src="IMAGES/service-images/Sea-images/img-1.jpg" class="img-fluid" alt="Sea-image">
+                            </div>
+                            <div class="info-sec">
+                                <a class="text-decoration-none" href="#">
+                                    <h1>Fishing Expeditions</h1>
+                                </a>
+                                <p>Our group tour coordinators are skilled in organizing and managing custom group tours
+                                    for
+                                    families, friends.
+                                </p>
+                                <button id="btn">Read More</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6  d-flex align-items-stretch ">
+                        <div class="service-row1">
+                            <div class="card">
+                                <img src="IMAGES/service-images/Sea-images/img-2.jpg" class="img-fluid" alt="Sea-image">
+                            </div>
+                            <div class="info-sec">
+                                <a class="text-decoration-none" href="#">
+                                    <h1>Island Hopping</h1>
+                                </a>
+                                <p>Our group tour coordinators are skilled in organizing and managing custom group tours
+                                    for
+                                    families, friends.
+                                </p>
+                                <button id="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6  d-flex align-items-stretch ">
+                        <div class="service-row1">
+                            <div class="card">
+                                <img src="IMAGES/service-images/Sea-images/img-3.jpg" class="img-fluid" alt="Sea-image">
+                            </div>
+                            <div class="info-sec">
+                                <a class="text-decoration-none" href="#">
+                                    <h1>Yacht Charters</h1>
+                                </a>
+                                <p>Our group tour coordinators are skilled in organizing and managing
+                                    custom group tours for families, friends.
+                                </p>
+                                <button id="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-------------------------------------
+     Review-section
+---------------------------------------->
+
+
+
+    <section id="review">
+        <div class="container">
+            <div class="review-sec">
+                <div class="review-box">
+                    <h1>TOP REVIEWS</h1>
+                    <h2>CHILE</h2>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                        velit..."<br>
+                        "There is no one who loves pain itself, who seeks after it and wants to have it,
+                        simply <br> becausw it is pain..."
+                    </p>
+                    <div class="arrow-icon">
+                        <i class="fa-solid fa-arrow-left left"></i>
+                        <i class="fa-solid fa-arrow-right right"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+
+    <!-------------------------------------
+     Bottom-section
+    --------------------------------------->
+
+    <div class="container">
+        <div class="bottom-sec">
+            <div class="bottom-row1">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 mt-sm-5 column-1 ">
+                        <h2 class="ms-lg-4">CH0OSE YOUR PLACE</h2>
+                        <div class="caption">
+                            <h1 class="title text-start mt-4 pt-md-0"> Popular <br>
+                                <span class="text-blue">Distinations</span>
+                            </h1>
+                            <P class=" text-start pt-5 pt-md-0"> We organize island hopping tours that allow you to
+                                region or country. From the Greek Islands to the Caribbean, our island hopping tours
+                                provide a unique and exciting travel experience.
+                            </p>
+                            <p class="text-start pt-4 pt-md-0">
+                                We organize island hopping tours that allow you to
+                                region or country. From the Greek Islands to the Caribbean, our island hopping tours
+                                provide a unique and exciting travel experience.
+                                We organize island hopping tours that allow you to
+                                region or country.
+                            </p>
+                            <!-- <p class="text-start pt-4 pt-md-0">
+                                We organize island hopping tours that allow you to
+                                region or country. From the Greek Islands to the Caribbean, our island hopping tours
+                                provide a unique and exciting travel experience.
+                                We organize island hopping tours that allow you to
+                                region or country.
+                            </p>
+                            <p class="text-start pt-4 pt-md-0">
+                                We organize island hopping tours that allow you to
+                                region or country. From the Greek Islands to the Caribbean, our island hopping tours
+                                provide a unique and exciting travel experience.
+                                We organize island hopping tours that allow you to
+                                region or country.
+                            </p> -->
+                            <p>
+                            </P>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mt-sm-5 section-2">
+                        <div>
+                            <a class="text-decoration-none" href="#">
+                                <img src="IMAGES/Footer-images/footer-img1.jpg" class="card-img rounded-4" alt="">
+                                <h1>Lorem Ipsum</h1>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bottom-row2">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mt-5 ">
+                        <a class="text-decoration-none" href="#">
+                            <img src="IMAGES/Footer-images/footer-img2.jpg" class="card-img" alt="">
+                            <h1>Lorem Ipsum</h1>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-5">
+                        <a class="text-decoration-none" href="#">
+                            <img src="IMAGES/Footer-images/footer-img3.jpg" class="card-img" alt="">
+                            <h1>Lorem Ipsum</h1>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-5 ">
+                        <a class="text-decoration-none" href="#">
+                            <img src="IMAGES/Footer-images/footer-img4.jpg" class="card-img rounded-3" alt="">
+                            <h1>Lorem Ipsum</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-------------------------------------
+     Footer-section
+    --------------------------------------->
+
+    <footer>
+        <div class="container">
+            <div id="footer">
+                <div class="footer-top">
+
+                    <div class="row">
+
+                        <div class="col-lg-5 col-md-6   mt-5 footer-contact">
+                            <h3>LOGO</h3>
+                            <p class="mt-5">
+                                We offer private yacht charters for clients who want to enjoy a more exclusive
+                                and
+                                personalized sea travel experience. Our yacht charters come with a dedicated
+                                crew and
+                                can be
+                                customized to suit your needs and preferences.
+
+                            </p>
+
+                            <div class="container d-md-flex mt-4 mb-5">
+
+                                <div class="social-links">
+                                    <a href="#" class="twitter"><i class="fa-brands fa-square-facebook"></i></a>
+                                    <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 mt-lg-5 mt-md-5 mt-sm-0  footer-links">
+                            <h3 class="">Contacts</h3>
+                            <div>
+                                <ul class="mt-5 ">
+                                    <div class="contact-icon float-start mt-1  me-3">
+                                        <img src="IMAGES/footer-icons/Email-icon.jpg" width="22px" alt="Email-icon">
+                                    </div>
+                                    <li class=""><a href="#">wonderlandadventurers.com</a></li>
+                                    <div class="contact-icon float-start mt-3  me-3">
+                                        <img src="IMAGES/footer-icons/phone-icon.jpg" width="22px" alt="phone-icon">
+
+                                    </div>
+                                    <p class="mt-3">+1 (555) 885-1535</p>
+                                </ul>
+                                <p class="mt-3 ms-2">Our office hours are Monday to Friday.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mt-5 footer-links">
+                            <h3 class=""> Services</h3>
+                            <div class="div-2">
+                                <ul class="mt-5">
+                                    <li class=""><a href="#">About</a></li>
+                                    <li class=""><a href="#">Our Services</a></li>
+                                    <li class=""><a href="#">Contact Us</a></li>
+                                    <li class=" mb-4"><a href="#">Listing</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="text-footer">
+                <p>
+                    GLOBAL CODESK.COM @ 2023 ALL RIGHT RESERVED
+                </p>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!---------------JavaScript files ----------->
+
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
