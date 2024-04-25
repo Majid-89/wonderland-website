@@ -12,7 +12,7 @@
         font-size: 65px;
     }
 
-    /* .booking-sec {
+    .booking-sec {
         height: 300px;
     }
 
@@ -65,10 +65,9 @@
     .booking-sec .form-group p {
         font-size: 13px;
         margin-top: 20px;
-    } */
+    }
 
-
-    .caption {
+    */ .caption {
         margin-top: 20px;
     }
 
@@ -124,10 +123,10 @@
         font-size: 55px;
     }
 
-    /* .booking-sec {
+    .booking-sec {
         margin-top: 30px;
         height: 320px;
-    } */
+    }
 
     .main-bg {
         height: 420px;
@@ -199,7 +198,7 @@
 
     }
 
-    /* .booking-sec .icon-box i {
+    .booking-sec .icon-box i {
         font-size: 19px;
 
     }
@@ -208,7 +207,7 @@
         font-size: 10px;
         padding: 20px 0px 0px 14px;
 
-    } */
+    }
 
     .caption .title {
         font-size: 30px;
@@ -303,7 +302,7 @@
         height: 250px;
     }
 
-    /* .booking-sec {
+    .booking-sec {
         height: 380px;
     }
 
@@ -316,7 +315,7 @@
     .booking-sec .icon-box i {
         font-size: 15px;
 
-    } */
+    }
 
     .listing-main h1 {
         font-size: 22px;
@@ -330,7 +329,7 @@
 
     }
 
-    /* .booking-sec .icon-box {
+    .booking-sec .icon-box {
         height: 30px;
         overflow: hidden;
     }
@@ -350,6 +349,6 @@
         font-size: 10px;
         padding: 20px 0px 0px 10px;
 
-    } */
+    }
 
 }
