@@ -158,6 +158,11 @@
         margin-top: 50px;
     }
 
+    .text-big {
+        font-size: 40px;
+
+    }
+
     .bottom-sec .section-2 {
         margin-top: 50px;
     }
@@ -167,10 +172,6 @@
 
 @media only screen and (max-width: 550px) {
 
-    .text-big {
-        font-size: 50px;
-
-    }
 
     .caption .title {
         font-size: 40px;
@@ -193,6 +194,10 @@
 
 @media only screen and (max-width: 470px) {
 
+    .text-big {
+        font-size: 30px;
+
+    }
 
     /* .booking-sec .icon-box i {
         font-size: 19px;
@@ -272,9 +277,7 @@
 
 
 @media only screen and (max-width: 422px) {
-    .text-big {
-        font-size: 40px;
-    }
+
 
     .hero-about {
         height: 250px;
@@ -323,9 +326,9 @@
 
 @media only screen and (max-width: 370px) {
     .text-big {
-        font-size: 35px;
-    }
+        font-size: 25px;
 
+    }
 
     /* .booking-sec .icon-box {
         height: 30px;
