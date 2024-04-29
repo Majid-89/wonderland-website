@@ -1,6 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
 
+
  * {
      margin: 0;
      padding: 0;
@@ -11,12 +12,18 @@
  }
 
  .animate__animated.animate__pulse {
+     --animate-duration: 4s;
+ }
+
+ .animate__animated.animate__fadeIn {
+     --animate-duration: 3s;
+ }
+
+ .animate__animated.animate__bounceIn {
      --animate-duration: 8s;
  }
 
- .animate__animated.animate__rubberBand {
-     --animate-duration: 3s;
- }
+
 
  .nav-section {
      position: sticky;
@@ -97,14 +104,27 @@
  }
 
  .navbar ul li a {
-     font-size: 18px;
-     font-weight: 600;
+     font-size: 16px;
+     font-weight: 400;
      text-transform: uppercase;
+     position: relative;
  }
 
- .navbar ul li a:hover {
-     background-color: rgba(0, 255, 255, 1);
+ .navbar ul li a::after {
+     content: "";
+     width: 0;
+     height: 3px;
+     position: absolute;
+     background: rgb(157, 200, 235);
+     bottom: 5px;
+     left: 0;
+     transition: all ease-in .3s;
  }
+
+ .navbar ul li a:hover::after {
+     width: 100%;
+ }
+
 
  .burger {
      display: none;
@@ -195,7 +215,7 @@
      cursor: pointer;
      height: 250px;
      background-color: rgba(255, 255, 255, 1);
-     box-shadow: 0px 1px 0px 2px rgba(0, 0, 0, 0.2)
+     box-shadow: 0px 1px 0px 2px rgba(0, 0, 0, 0.2);
  }
 
  .tab-titles {
@@ -249,18 +269,21 @@
 
  form button {
      padding: 7px 20px;
-     border: 1px solid rgba(0, 255, 255, 1);
-     font-weight: 900;
+     border: none;
+     border-radius: 10px;
+     font-weight: 400;
      margin-top: 35px;
-     background: rgba(255, 255, 255, 1);
+     background: rgba(0, 255, 255, 1);
      transition: all 0.5s;
  }
 
  form button:hover {
-     background: rgba(0, 255, 255, 1);
+     background: rgb(168, 164, 219);
+
  }
 
  .form-group input {
+     border-radius: 5px;
      padding: 8px;
      border: 1px solid rgb(1, 255, 255, 1);
      background: rgba(255, 255, 255, 1);
@@ -268,6 +291,7 @@
  }
 
  .form-group select {
+     border-radius: 5px;
      padding: 8px;
      border: 1px solid rgb(1, 255, 255, 1);
      background: rgba(255, 255, 255, 1);

@@ -44,23 +44,23 @@
         <div class="container">
             <div class="top-nav">
                 <div class="icon-box d-inline d-flex justify-content-start align-content-center ">
-                    <div class="animate__animated animate__fadeIn  animate__infinite infinite icon ">
+                    <div class="animate__animated animate__pulse  animate__infinite infinite icon ">
                         <a href=""><i class="fa-solid fa-envelope"></i></a>
                     </div>
-                    <div class="icon ">
+                    <div class="animate__animated animate__pulse  animate__infinite infinite icon ">
                         <a href=""><i class="fa-brands fa-facebook-f"></i></a>
                     </div>
 
-                    <div class="icon ">
+                    <div class="animate__animated animate__pulse  animate__infinite infinite icon ">
 
                         <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
                     </div>
-                    <div class="icon">
+                    <div class="animate__animated animate__pulse  animate__infinite infinite icon">
                         <a href=""><i class="fa-brands fa-instagram"></i></a>
                     </div>
 
                 </div>
-                <div class="icon-box1 d-inline d-flex justify-content-end ">
+                <div class=" icon-box1 d-inline d-flex justify-content-end ">
                     <button class="nav-button">+1(555) 885-1535</button>
                 </div>
 
@@ -100,8 +100,7 @@
 
         <nav class="navbar navbar-expand-lg position-sticky">
             <div class="container overflow-hidden">
-                <img src="IMAGES/Logos/nav-logo.jpg"
-                    class="animate__animated animate__bounceIn animate__infinite	infinite  figure-img" alt="logo">
+                <img src="IMAGES/Logos/nav-logo.jpg" class="figure-img" alt="logo">
                 <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -132,14 +131,14 @@
     <!-------------------------------------
         Main-section
     ---------------------------------------->
-    <section class="main">
+    <section class="main overflow-hidden">
         <div class="container">
-            <div class="animate__animated animate__pulse  animate__infinite	infinite main-bg">
-                <h1 class=" text-big pt-5">Welcome to <br>
+            <div class=" main-bg">
+                <h1 class="animate__animated animate__pulse  animate__infinite	infinite text-big pt-5">Welcome to <br>
                     <span class="text-blue">
                         WonderlandAdventures</span>
                 </h1>
-                <div class=" booking-sec">
+                <div class="booking-sec">
                     <div class="tab-titles">
                         <div class="icon-box tab-links active-link" onclick="opentab('Flights')" id="box-1">
                             <div class="icon">
@@ -160,7 +159,8 @@
                             </div>
                             <p class="">Cars</p>
                         </div>
-                        <div class="icon-box tab-links" onclick="opentab('Curises')" id="box-4">
+                        <div class="icon-box tab-links" style="border-radius: 0px 0px 10px 0px;"
+                            onclick="opentab('Curises')" id="box-4">
                             <div class="icon">
                                 <i class="fa-solid fa-ship"></i>
                             </div>
@@ -173,7 +173,7 @@
                             class="d-flex align-items-center justify-content-around flex-wrap mt-0 mt-sm-2 mt-md-5 mb-5">
                             <div class="form-group">
                                 <p>Flying from:</p>
-                                <select class="bg-danger" id="from" name="from">
+                                <select id="from" name="from">
                                     <option value="">City or Airport</option>
                                     <option value="New York">New York</option>
                                     <option value="Los Angeles">Los Angeles</option>
@@ -221,7 +221,7 @@
                                     <option value="5">5</option>
                                 </select>
                             </div>
-                            <button type="submit">Search</button>
+                            <button type="rounded submit">Search</button>
                         </form>
                     </div>
                     <div class="form-section tab-contents" id="Hotels">
