@@ -10,6 +10,14 @@
 
  }
 
+ .animate__animated.animate__pulse {
+     --animate-duration: 8s;
+ }
+
+ .animate__animated.animate__rubberBand {
+     --animate-duration: 3s;
+ }
+
  .nav-section {
      position: sticky;
      top: 0;
