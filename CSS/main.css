@@ -104,6 +104,13 @@
      height: 60px;
  }
 
+ .navbar .active-link {
+     background: rgb(157, 200, 235);
+     border-radius: 5px;
+     color: white;
+
+ }
+
  .navbar ul li a {
      font-size: 16px;
      font-weight: 400;
